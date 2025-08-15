@@ -1,0 +1,99 @@
+ /* Estilos do menu */
+    .navbar-custom {
+      background-color: #FFF6E6;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+
+    .form-control,
+    .btn,
+    .dropdown-menu,
+    .dropdown-item {
+      border-radius: 2rem !important;
+    }
+
+    .form-control {
+      width: 200px;
+    }
+
+    .dropdown-menu {
+      padding: 10px;
+      border: 1px solid #ddd;
+        font-size: 1.2rem; 
+    }
+
+    .dropdown-item:hover {
+      background-color: #e3f2fd;
+    }
+
+    .navbar-nav .nav-link {
+      margin-right: 15px;
+      font-size: 1.2rem; 
+    }
+
+    .bi-person-circle {
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-busca {
+      background-color: white;
+      color: #333;
+      border-radius: 0.5rem;
+      padding: 6px 12px;
+      transition: all 0.3s ease;
+    }
+
+    .custom-busca:hover {
+      background-color:#ff8000 ;
+      color: white;
+    }
+
+/* Flexbox base para manter o rodapé no final */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #FFF6E6;
+      width: 100%;
+    } 
+    @media (max-width: 991px) {
+      .search-container {
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 10px;
+      }
+
+      .form-control {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    }
+
